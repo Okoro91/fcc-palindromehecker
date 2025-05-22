@@ -13,17 +13,19 @@ body {
 
 .container {
     width: 550px;
-    padding: 10px 38px;
+    padding: 20px 38px;
     margin: 10px auto;
     text-align: center;
 }
 
 img {
     width: 100%;
+    height: 100%;
 }
 
 .logo {
     width: 250px;
+    height: 47px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
