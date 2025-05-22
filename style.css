@@ -13,7 +13,7 @@ body {
 
 .container {
     width: 550px;
-    padding: 38px;
+    padding: 10px 38px;
     margin: 10px auto;
     text-align: center;
 }
@@ -93,9 +93,11 @@ label {
     overflow-y: auto;
     word-wrap: break-word;
     min-height: 50px;
-    color: #271736;
-    text-align: left;
+    color: #4d0f4d;
+    text-align:  center;
     margin-top: 5px;
+    padding: 10px;
+    font-size: 24px;
 }
 
 .hidden {
@@ -106,8 +108,8 @@ label {
     margin-top: 25px;
     display: flex;
     width: calc(550px - 80px);
-    padding: 30px;
-    font-size: 1.2rem;
+    padding: 10px 30px;
+    font-size: 1.1rem;
     font-weight: 700;
     background-color: #fa4dcf;
 }
