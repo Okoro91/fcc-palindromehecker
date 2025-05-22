@@ -20,7 +20,8 @@ const reverseWord = (userInput) => {
 const displayUserInput = () => {
     const text = inputText.value;
     if(text === ''){
-       alert("Please input a value")
+      displayResult.style.display = "none";
+      return alert("Please input a value")
     }
     const reverseText = reverseWord(text);
     displayResult.style.display = "block";
